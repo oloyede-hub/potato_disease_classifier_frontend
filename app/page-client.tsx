@@ -225,7 +225,7 @@ function PotatoClassifier() {
         <Header>
           <Logo>
             <PotatoIcon>
-                <Image src="/potato.jpg" alt="Potato icon" width={56} height={56} style={{ borderRadius: "16px"}} />
+                <PotatoIcon>🥔</PotatoIcon>
             </PotatoIcon>
             <div>
               <Title>Potato Leaf Disease Classifier</Title>
