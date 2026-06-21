@@ -168,10 +168,7 @@ function PotatoClassifier() {
   const [results, setResults] = useState<Classification[] | null>(null);
   const [isDragOver, setIsDragOver] = useState(false);
 
-  let API_URL 
-  if (!process.env.NEXT_PUBLIC_API_URL) {
-    API_URL = 'http://localhost:8000';
-  }
+  let API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
 
 
   const handleFile = useCallback((selectedFile: File) => {
