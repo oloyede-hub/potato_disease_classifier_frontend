@@ -11,26 +11,37 @@ yarn dev
 # or
 pnpm dev
 # or
-bun dev
-```
+# 🥔 Potato Classifier
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A modern, beautiful single-page frontend for potato classification built with **Next.js 14** and **styled-components**.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Upload a potato image and get instant classification results (variety, quality, defects, etc.) powered by your machine learning model.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+![Potato Classifier Demo](https://via.placeholder.com/800x500/18181b/eab308?text=Potato+Classifier+Screenshot)
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Drag & Drop** image upload with click fallback
+- Clean, modern UI with smooth animations
+- Real-time image preview
+- Loading states and polished results display
+- Confidence score visualization
+- Fully responsive design
+- Built with **styled-components** for easy styling
+- Ready to connect to your ML backend (Flask, FastAPI, etc.)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠 Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Next.js 14** (App Router)
+- **TypeScript**
+- **styled-components**
+- **Lucide React** (icons)
+- Tailwind CSS ready (if you want to extend)
 
-## Deploy on Vercel
+## 🚀 Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 1. Clone the repository
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+git clone https://github.com/oloyede-hub/potato_disease_classifier_frontend
+cd potato-classifier
